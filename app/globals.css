@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root {
   --atim-red: #d03c27;
   --atim-orange: #e58c3d;
@@ -15,6 +17,16 @@ body {
   color: #0b0b0b;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 .atim-heading {
   font-family: var(--font-outfit), system-ui;
   letter-spacing: 0.01em;
@@ -22,5 +34,18 @@ body {
 
 .atim-ui {
   font-family: var(--font-ibm-plex), var(--font-outfit), system-ui;
+}
+
+/* nicer text rendering */
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* consistent focus ring */
+:where(a, button, input, textarea, select):focus-visible {
+  outline: 2px solid rgba(0, 0, 0, 0.28);
+  outline-offset: 3px;
 }
 

@@ -21,7 +21,7 @@ export default function Services() {
 
         <div className="mt-10 grid gap-6 md:grid-cols-2">
           {/* Individuals */}
-          <div className="rounded-3xl border bg-white p-7 shadow-sm">
+          <div className="group rounded-3xl border border-black/10 bg-white p-7 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
             <p className="atim-ui text-sm font-semibold text-black/60">
               For Individuals
             </p>
@@ -46,7 +46,7 @@ export default function Services() {
             <div className="mt-6">
               <a
                 href="#contact"
-                className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-semibold text-white shadow-sm transition hover:opacity-95"
+                className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-semibold text-white shadow-sm transition hover:opacity-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-black/30"
                 style={{ backgroundColor: "var(--atim-red)" }}
               >
                 Explore Decision Support
@@ -55,7 +55,7 @@ export default function Services() {
           </div>
 
           {/* Institutions */}
-          <div className="rounded-3xl border bg-white p-7 shadow-sm">
+          <div className="group rounded-3xl border border-black/10 bg-white p-7 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
             <p className="atim-ui text-sm font-semibold text-black/60">
               For Institutions & Organizations
             </p>
@@ -74,7 +74,7 @@ export default function Services() {
             <div className="mt-6">
               <a
                 href="#contact"
-                className="inline-flex items-center justify-center rounded-xl border px-5 py-3 text-base font-semibold transition hover:bg-black/5"
+                className="inline-flex items-center justify-center rounded-xl border border-black/15 bg-white/60 px-5 py-3 text-base font-semibold transition hover:bg-white/80 focus:outline-none focus-visible:ring-2 focus-visible:ring-black/30"
               >
                 Invite Alignis to Speak
               </a>
