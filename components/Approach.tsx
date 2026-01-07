@@ -7,13 +7,14 @@ export default function Approach() {
         <div className="grid gap-10 md:grid-cols-12 md:items-start">
           <div className="md:col-span-5">
             <p className="atim-ui text-sm font-semibold tracking-wide text-black/60">
-              CORE LOGIC
+              HOW THE WORK IS DONE
             </p>
             <h2 className="atim-heading mt-3 text-3xl leading-tight md:text-4xl">
-              Identity → Alignment → Action
+              Define the decision. Surface constraints. Reason from first principles.
             </h2>
             <p className="mt-4 text-base leading-relaxed text-black/70">
-              We don’t start with action. We earn direction first.
+              When the stakes are high, better outcomes come from better framing,
+              clearer tradeoffs, and disciplined reasoning—not default paths.
             </p>
           </div>
 
@@ -22,38 +23,37 @@ export default function Approach() {
               <div className="grid gap-6 md:grid-cols-3">
                 <div>
                   <p className="atim-ui text-sm font-semibold text-black/60">
-                    Identity
+                    1) Define the decision
                   </p>
                   <p className="mt-2 text-base leading-relaxed text-black/80">
-                    Understand who you are, what you value, and what your work
-                    needs to support.
+                    Clarify what is actually being decided—so the work targets
+                    the real question, not a proxy.
                   </p>
                 </div>
                 <div>
                   <p className="atim-ui text-sm font-semibold text-black/60">
-                    Alignment
+                    2) Constraints & tradeoffs
                   </p>
                   <p className="mt-2 text-base leading-relaxed text-black/80">
-                    Evaluate options for fit, tradeoffs, and what “right” looks
-                    like in practice.
+                    Identify the conditions the decision must operate within,
+                    and the tradeoffs that matter most.
                   </p>
                 </div>
                 <div>
                   <p className="atim-ui text-sm font-semibold text-black/60">
-                    Action
+                    3) Reason from the ground up
                   </p>
                   <p className="mt-2 text-base leading-relaxed text-black/80">
-                    Move intentionally—strategy, decisions, and next steps
-                    grounded in clarity.
+                    Apply first-principles thinking to test options and arrive
+                    at sound judgment you can stand behind.
                   </p>
                 </div>
               </div>
             </div>
 
             <p className="mt-8 text-lg leading-relaxed text-black/80">
-              Alignis supports career decisions rooted in identity and guided by
-              alignment—from early exploration to seasoned professional
-              inflection points.
+              This perspective is advanced through speaking, writing, and direct
+              decision support.
             </p>
           </div>
         </div>

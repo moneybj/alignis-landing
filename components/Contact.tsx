@@ -9,12 +9,12 @@ export default function Contact() {
             CONTACT
           </p>
           <h2 className="atim-heading mt-3 text-3xl leading-tight md:text-4xl">
-            Ready to make a career decision with clarity?
+            Want decision support—or a speaking program?
           </h2>
           <p className="mt-4 max-w-2xl text-lg leading-relaxed text-black/80">
-            Whether you’re exploring 1:1 coaching or looking to bring a keynote,
-            workshop, or program to your institution—reach out and we’ll find
-            the right fit.
+            Whether you’re facing a real “what’s next?” moment or you’re looking
+            to bring a keynote, workshop, or educational program to your
+            institution—reach out and we’ll find the right fit.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -23,13 +23,13 @@ export default function Contact() {
               className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-semibold text-white shadow-sm transition hover:opacity-95"
               style={{ backgroundColor: "var(--atim-red)" }}
             >
-              Email Alignis
+              Explore Decision Support
             </a>
             <a
               href="#services"
               className="inline-flex items-center justify-center rounded-xl border px-5 py-3 text-base font-semibold transition hover:bg-black/5"
             >
-              View offerings
+              Invite Alignis to Speak
             </a>
           </div>
 

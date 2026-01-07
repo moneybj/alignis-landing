@@ -7,32 +7,31 @@ export default function Problem() {
         <div className="grid gap-10 md:grid-cols-12 md:items-start">
           <div className="md:col-span-5">
             <p className="atim-ui text-sm font-semibold tracking-wide text-black/60">
-              THE PROBLEM
+              ABOUT ALIGNIS
             </p>
             <h2 className="atim-heading mt-3 text-3xl leading-tight md:text-4xl">
-              When the path looks right on paper—but feels wrong in practice.
+              Alignis exists to improve how career decisions are made.
             </h2>
           </div>
 
           <div className="md:col-span-7">
             <p className="text-lg leading-relaxed text-black/80">
-              Most career decisions are shaped by titles, credentials, and
-              external expectations — often before there’s space to understand
-              who a person is or what they want their work to lead to.
+              As careers progress, decisions become more complex and more
+              consequential. Outcomes depend less on credentials, titles, or
+              momentum—and more on the quality of judgment applied to the
+              decision itself.
             </p>
             <p className="mt-5 text-lg leading-relaxed text-black/80">
-              As a result, many people pursue paths that look successful on
-              paper but feel increasingly disconnected in practice.
+              Alignis brings first-principles rigor to career decision-making,
+              focusing on clarity, disciplined reasoning, and fit between a
+              decision and the conditions it must operate within.
             </p>
 
             <div className="mt-8 rounded-2xl border bg-white p-6">
-              <p className="atim-ui text-sm font-semibold text-black/60">
-                Alignis exists to change how career decisions are made.
-              </p>
-              <p className="mt-2 text-base leading-relaxed text-black/80">
-                From early exploration to seasoned professional inflection
-                points, Alignis supports career decisions rooted in identity and
-                guided by alignment.
+              <p className="text-base leading-relaxed text-black/80">
+                Rather than relying on inherited frameworks or surface signals,
+                the work emphasizes defining the decision at hand, examining
+                real constraints and tradeoffs, and reasoning from the ground up.
               </p>
             </div>
           </div>

@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <p className="atim-heading text-xl">Alignis</p>
             <p className="mt-1 text-sm text-black/60">
-              Identity-centered career decision-making.
+              First-principles career decision-making.
             </p>
           </div>
 
@@ -34,8 +34,7 @@ export default function Footer() {
         <div className="mt-8 flex flex-col gap-2 border-t pt-6 text-sm text-black/60 md:flex-row md:items-center md:justify-between">
           <p>© {new Date().getFullYear()} Alignis. All rights reserved.</p>
           <p>
-            Built around the core logic:{" "}
-            <span className="atim-ui">Identity → Alignment → Action</span>
+            Built around clarity, disciplined reasoning, and fit.
           </p>
         </div>
       </div>

@@ -1,26 +1,26 @@
-@import "tailwindcss";
-
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --atim-red: #d03c27;
+  --atim-orange: #e58c3d;
+  --atim-caramel: #c27039;
+  --atim-blue: #306381;
+  --atim-red-dark: #bf4732;
+  --atim-navy: #204868;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+html,
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-outfit), system-ui, -apple-system, Segoe UI, Roboto,
+    Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  background: white;
+  color: #0b0b0b;
 }
+
+.atim-heading {
+  font-family: var(--font-outfit), system-ui;
+  letter-spacing: 0.01em;
+}
+
+.atim-ui {
+  font-family: var(--font-ibm-plex), var(--font-outfit), system-ui;
+}
+

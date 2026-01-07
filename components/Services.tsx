@@ -14,9 +14,8 @@ export default function Services() {
             </h2>
           </div>
           <p className="max-w-xl text-base leading-relaxed text-black/70">
-            Speaking, education, and coaching—grounded in an identity-centered
-            framework that brings clarity to career decision-making and
-            direction.
+            Speaking, writing, and direct decision support—bringing
+            first-principles rigor to complex career decision environments.
           </p>
         </div>
 
@@ -27,15 +26,22 @@ export default function Services() {
               For Individuals
             </p>
             <h3 className="mt-3 text-xl font-semibold">
-              1:1 Career Alignment Coaching
+              Career Decision Support
             </h3>
             <p className="mt-3 text-base leading-relaxed text-black/80">
-              For accomplished professionals who feel successful on paper but
-              misaligned in practice.
+              For individuals facing a genuine “what’s next?” moment—when
+              options are many, tradeoffs are real, experience is broad, and the
+              right move is no longer obvious.
             </p>
             <p className="mt-3 text-base leading-relaxed text-black/80">
-              A thinking partnership focused on clarity, fit, and choosing the
-              next chapter intentionally.
+              This work creates a structured decision environment focused on
+              clarifying the actual decision at hand, examining real
+              constraints, and reasoning from first principles rather than
+              default paths, external expectations, or résumé optics.
+            </p>
+            <p className="mt-3 text-base leading-relaxed text-black/80">
+              The outcome is sound judgment—and a next move you can stand behind
+              and act on with confidence.
             </p>
             <div className="mt-6">
               <a
@@ -43,7 +49,7 @@ export default function Services() {
                 className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-semibold text-white shadow-sm transition hover:opacity-95"
                 style={{ backgroundColor: "var(--atim-red)" }}
               >
-                Explore Coaching
+                Explore Decision Support
               </a>
             </div>
           </div>
@@ -51,18 +57,19 @@ export default function Services() {
           {/* Institutions */}
           <div className="rounded-3xl border bg-white p-7 shadow-sm">
             <p className="atim-ui text-sm font-semibold text-black/60">
-              For Institutions & Conferences
+              For Institutions & Organizations
             </p>
             <h3 className="mt-3 text-xl font-semibold">
               Speaking & Educational Programs
             </h3>
             <p className="mt-3 text-base leading-relaxed text-black/80">
-              Keynotes, workshops, and professional development sessions for
-              universities, organizations, and conferences.
+              Keynotes, workshops, and educational programs for students,
+              professionals, and leadership audiences.
             </p>
             <p className="mt-3 text-base leading-relaxed text-black/80">
-              Programs are grounded in an identity-centered framework that
-              brings clarity to career decision-making and direction.
+              Programs examine how people make career decisions, how inherited
+              definitions of success shape direction, and why alignment between
+              identity, context, and direction matters for sustained performance.
             </p>
             <div className="mt-6">
               <a

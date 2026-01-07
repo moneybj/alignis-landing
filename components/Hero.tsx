@@ -10,29 +10,31 @@ export default function Hero() {
           {/* Copy */}
           <div>
             <p className="atim-ui inline-flex items-center rounded-full border px-3 py-1 text-sm">
-              Speaking • Education • Coaching
+              Decision support • Speaking • Writing
             </p>
 
             <h1 className="atim-heading mt-6 text-4xl leading-[1.05] md:text-6xl">
-              Bringing the full human into career decisions.
+              First-principles rigor for career decisions.
             </h1>
 
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-black/80">
-              An identity-centered approach to choosing work with clarity,
-              alignment, and intention.
+              Alignis exists to improve how career decisions are made—bringing
+              clarity, disciplined reasoning, and fit between a decision and the
+              conditions it must operate within.
             </p>
 
             <p className="mt-4 max-w-xl text-base leading-relaxed text-black/70">
-              Speaking, education, and coaching for individuals and institutions.
+              This perspective is advanced through speaking, writing, and direct
+              decision support.
             </p>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a
-                href="#contact"
+                href="#services"
                 className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-semibold text-white shadow-sm transition hover:opacity-95"
                 style={{ backgroundColor: "var(--atim-red)" }}
               >
-                Explore Coaching
+                Explore Decision Support
               </a>
 
               <a
@@ -44,7 +46,7 @@ export default function Hero() {
             </div>
 
             <p className="atim-ui mt-8 text-sm text-black/60">
-              Identity → Alignment → Action
+              Clarity → Judgment → Action
             </p>
           </div>
 
