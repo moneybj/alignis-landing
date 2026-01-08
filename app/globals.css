@@ -1,20 +1,31 @@
 @import "tailwindcss";
 
 :root {
-  --atim-red: #d03c27;
-  --atim-orange: #e58c3d;
-  --atim-caramel: #c27039;
-  --atim-blue: #306381;
-  --atim-red-dark: #bf4732;
-  --atim-navy: #204868;
+  /* Speech Workroom–inspired palette (warm cream + terracotta + charcoal) */
+  --brand-bg: #f4efe6;
+  --brand-surface: #fbf6ee;
+  --brand-ink: #2d2a29;
+  --brand-muted: rgba(45, 42, 41, 0.62);
+  --brand-rule: rgba(45, 42, 41, 0.16);
+  --brand-accent: #c98673; /* terracotta */
+  --brand-accent-dark: #b87663;
+  --brand-charcoal: #3f3a38;
+
+  /* legacy tokens used by components */
+  --atim-red: var(--brand-accent);
+  --atim-orange: #d7a08d;
+  --atim-caramel: #b98b74;
+  --atim-blue: #6f7f86;
+  --atim-red-dark: var(--brand-accent-dark);
+  --atim-navy: #34302f;
 }
 
 html,
 body {
   font-family: var(--font-outfit), system-ui, -apple-system, Segoe UI, Roboto,
     Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
-  background: #ffffff;
-  color: #0b0b0b;
+  background: var(--brand-bg);
+  color: var(--brand-ink);
 }
 
 html {
@@ -58,7 +69,7 @@ body {
 .deck-rule {
   height: 1px;
   width: 100%;
-  background: rgba(0, 0, 0, 0.12);
+  background: var(--brand-rule);
 }
 
 /* consistent focus ring */
