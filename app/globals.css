@@ -13,7 +13,7 @@ html,
 body {
   font-family: var(--font-outfit), system-ui, -apple-system, Segoe UI, Roboto,
     Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
-  background: white;
+  background: #ffffff;
   color: #0b0b0b;
 }
 
@@ -41,6 +41,24 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* brand-deck feel (mimics the PDF: big type, generous whitespace, minimal chrome) */
+.deck-kicker {
+  font-family: var(--font-ibm-plex), var(--font-outfit), system-ui;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.deck-title {
+  font-family: var(--font-outfit), system-ui;
+  letter-spacing: -0.02em;
+}
+
+.deck-rule {
+  height: 1px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.12);
 }
 
 /* consistent focus ring */
